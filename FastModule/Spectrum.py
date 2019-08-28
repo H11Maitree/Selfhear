@@ -13,14 +13,18 @@ def make_amplitude_per_frequency_DataFrame(wavefile):
     import thinkdsp
     import thinkplot
     import pandas as pd
-    import numpy
+    import numpy as np
     from pandas import DataFrame
+    from sklearn.preprocessing import MinMaxScaler
+    
     spectruminmas=wavefile.make_spectrum()
+    
+    scaler = MinMaxScaler()
     
     dataf=pd.DataFrame()
     dataf['Frequency']=spectruminmas.fs
-    dataf['Amplitude']=spectruminmas.hs
-    
+    dataf['Amplitude']=np.abs(spectruminmas.hs)
+    dataf['Normalized']=scaler.fit_transform((np.abs(spectruminmas.hs)).reshape(-1,1))
     dataf.set_index('Frequency',inplace=True)
     return dataf
 
