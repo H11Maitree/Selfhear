@@ -7,3 +7,4 @@ import numpy
 from pandas import DataFrame
 
 from FastModule.Spectrum import *
+from FastModule.Comparison import *
