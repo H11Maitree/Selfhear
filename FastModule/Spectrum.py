@@ -9,6 +9,7 @@ def plot_spectrum(wavefile):
     spectruminplt.plot()
     
 def make_amplitude_per_frequency_DataFrame(wavefile):
+    #Power is the square of amplitude
     #from __future__ import print_function, division
     import thinkdsp
     import thinkplot
