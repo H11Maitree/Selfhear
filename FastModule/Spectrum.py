@@ -5,8 +5,12 @@ def read_wav_file(Path):
 
 def plot_spectrum(wavefile):
     #sent wave array not path
+    import matplotlib.pyplot as plt
     spectruminplt=wavefile.make_spectrum()
     spectruminplt.plot()
+    plt.show()
+    plt.close()
+    
     
 def make_amplitude_per_frequency_DataFrame(wavefile):
     #Power is the square of amplitude
