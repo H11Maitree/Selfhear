@@ -1,0 +1,25 @@
+Name,R,G,B
+Bone (Cancellous),0,0,0
+Bone (Cortical),0,0,0
+Bone Marrow (Red),0,0,0
+Bone Marrow (Yellow),0,0,0
+Brain,0,0,0
+Brain (Grey Matter),0,0,0
+Brain (White Matter),0,0,0
+Eye (Aqueous Humor),0,0,0
+Eye (Choroid),0,0,0
+Eye (Ciliary Body),0,0,0
+Eye (Cornea),0,0,0
+Eye (Iris),0,0,0
+Eye (Lens),0,0,0
+Eye (Retina),0,0,0
+Eye (Sclera),0,0,0
+Eye (Vitreous Humor),0,0,0
+Eye Lens (Cortex),0,0,0
+Eye Lens (Nucleus),0,0,0
+Muscles,0,0,0
+Skin,0,0,0
+Skull Cancellous,0,0,0
+Skull Cortical,0,0,0
+Tooth,0,0,0
+Air,0,0,0
