@@ -21,8 +21,10 @@ Muscles,131,161,188
 Skin,31,98,70
 Skull Cancellous,0,0,0
 Skull Cortical,91,218,72
-Tooth,0,0,0
+Tooth,30,0,65
 Air,204,222,244
 Sinus,255,75,77
 CSF,15,24,96
 Blood Vessel Wall,108,95,27
+Tongue,255,246,81
+Connective Tissue,26,157,127
